@@ -16,50 +16,64 @@
 
 </head>
 <body>
-<header>
-    <ul class="nav gradient_header">
-        <div class="avatar"></div>
-        <li class="nav-item">
-            <div class="svg-wrapper">
-                <a class="nav-link nav_header " aria-current="page" href="index.html">
-                    <svg height="30" width="70" xmlns="http://www.w3.org/2000/svg">
-                        <rect class="shape" height="30" width="70" />
-                    </svg>
-                    <p class="text_nav">Mundial</p>
-                </a>
+<header class="gradient_header">
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid container_mainmenu">
+            <a class="navbar-brand" href="#">
+                <div class="avatar"></div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <div class="svg-wrapper">
+                            <a class="nav-link nav_header " aria-current="page" href="index.html">
+                                <svg height="30" width="70" xmlns="http://www.w3.org/2000/svg">
+                                    <rect class="shape" height="30" width="70" />
+                                </svg>
+                                <p class="text_nav">Mundial</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="svg-wrapper">
+                            <a class="nav-link active nav_header" href="detail_team_col.html">
+                                <svg height="30" width="80" xmlns="http://www.w3.org/2000/svg">
+                                    <rect class="shape" height="30" width="80" />
+                                </svg>
+                                <p class="text_nav">Colombia</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="svg-wrapper">
+                            <a class="nav-link nav_header" href="detail_team_arg.html">
+                                <svg height="30" width="85" xmlns="http://www.w3.org/2000/svg">
+                                    <rect class="shape" height="30" width="85" />
+                                </svg>
+                                <p class="text_nav">Argentina</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="svg-wrapper">
+                            <a class="nav-link nav_header" href="detail_team_ale.html">
+                                <svg height="30" width="85" xmlns="http://www.w3.org/2000/svg">
+                                    <rect class="shape" height="30" width="85" />
+                                </svg>
+                                <p class="text_nav">Alemania</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </li>
-        <li class="nav-item">
-            <div class="svg-wrapper">
-                <a class="nav-link active nav_header" href="detail_team_col.html">
-                    <svg height="30" width="80" xmlns="http://www.w3.org/2000/svg">
-                        <rect class="shape" height="30" width="80" />
-                    </svg>
-                    <p class="text_nav">Colombia</p>
-                </a>
-            </div>
-        </li>
-        <li class="nav-item">
-            <div class="svg-wrapper">
-                <a class="nav-link nav_header" href="detail_team_arg.html">
-                    <svg height="30" width="85" xmlns="http://www.w3.org/2000/svg">
-                        <rect class="shape" height="30" width="85" />
-                    </svg>
-                    <p class="text_nav">Argentina</p>
-                </a>
-            </div>
-        </li>
-        <li class="nav-item">
-            <div class="svg-wrapper">
-                <a class="nav-link nav_header" href="detail_team_ale.html">
-                    <svg height="30" width="85" xmlns="http://www.w3.org/2000/svg">
-                        <rect class="shape" height="30" width="85" />
-                    </svg>
-                    <p class="text_nav">Alemania</p>
-                </a>
-            </div>
-        </li>
-    </ul>
+        </div>
+    </nav>
+
+
 </header>
 
 <div class="bg_col" >
@@ -67,7 +81,7 @@
         <h1 class="text_1 text-center"> Colombia</h1>
     </div>
     <div class="container text-center grid_1">
-        <div class="row">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
             <div class="col">
                 <p class="text_1">
                     La clasificación a la final del Mundial de la Selección Colombia Femenina Sub-17 es la hazaña más grande del fútbol femenino del país, pero en ocasiones se desconoce que, de tiempo atrás, varios han sido los logros de las mujeres en este deporte. Por ello hacemos un recuento de lo que han alcanzado.
@@ -91,34 +105,34 @@
                             <div class="row">
                                 <div class="col"><a data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="0">
                                     <div class="card">
-                                        <img class="d-block w-100" src="assets/img/col/player1.jpg" alt="">
+                                        <img class="d-block w-100 img_team" src="assets/img/col/player1.jpg" alt="">
                                     </div>
                                 </a></div>
                                 <div class="col"><a data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="1">
                                     <div class="card">
-                                        <img class="d-block w-100" src="assets/img/col/player2.jpg" alt="">
+                                        <img class="d-block w-100 img_team" src="assets/img/col/player2.jpg" alt="">
                                     </div>
                                 </a></div>
                                 <div class="col"> <a data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="2">
                                     <div class="card">
-                                        <img class="d-block w-100" src="assets/img/col/player3.jpg" alt="">
+                                        <img class="d-block w-100 img_team" src="assets/img/col/player3.jpg" alt="">
                                     </div>
                                 </a></div>
                             </div>
                             <div class="row">
                                 <div class="col"><a data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="3">
                                     <div class="card">
-                                        <img class="d-block w-100" src="assets/img/col/player4.jpg" alt="">
+                                        <img class="d-block w-100 img_team" src="assets/img/col/player4.jpg" alt="">
                                     </div>
                                 </a></div>
                                 <div class="col"><a data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="4">
                                     <div class="card">
-                                        <img class="d-block w-100" src="assets/img/col/player5.jpg" alt="">
+                                        <img class="d-block w-100 img_team" src="assets/img/col/player5.jpg" alt="">
                                     </div>
                                 </a></div>
                                 <div class="col"><a data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-slide-to="5">
                                     <div class="card">
-                                        <img class="d-block w-100" src="assets/img/col/player6.jpg" alt="">
+                                        <img class="d-block w-100 img_team" src="assets/img/col/player6.jpg" alt="">
                                     </div>
                                 </a></div>
                             </div>

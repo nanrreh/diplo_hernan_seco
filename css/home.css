@@ -36,7 +36,6 @@
 
 .apartado1 {
     background-color: rgb(135 124 124 / 50%);
-    width:300px;
     height:100%;
     border:3px solid #393737;
     border-radius:22px;
@@ -154,4 +153,47 @@
     position: absolute;
     margin-top: -28px;
     margin-left: 6px;
+}
+
+.img_team:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+    box-shadow: -1px 1px 31px 0px rgba(255,255,255,1);
+}
+
+.col .list-group {
+    width: 50%;
+    margin: auto;
+}
+
+@media (max-width: 800px) {
+    .shape {
+        stroke: transparent;
+    }
+
+    .gradient_header{
+        flex-direction: column;
+    }
+
+    .nav .active {
+        background-color: transparent;
+    }
+
+    .text_nav {
+        margin-top: 0;
+        position: initial;
+    }
+
+    .navbar-toggler{
+        background-color: white;
+    }
+
+    .gradient_header {
+        box-shadow: none !important;
+    }
+
+    .col {
+        margin-top: 11px !important;
+    }
+
 }

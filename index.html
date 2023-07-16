@@ -17,49 +17,62 @@
 </head>
 <body>
 <header class="gradient_header">
-    <ul class="nav">
-        <div class="avatar"></div>
-        <li class="nav-item">
-            <div class="svg-wrapper">
-                <a class="nav-link active nav_header " aria-current="page" href="index.html">
-                    <svg height="30" width="70" xmlns="http://www.w3.org/2000/svg">
-                        <rect class="shape" height="30" width="70" />
-                    </svg>
-                    <p class="text_nav">Mundial</p>
-                </a>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid container_mainmenu">
+            <a class="navbar-brand" href="#">
+                <div class="avatar"></div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <div class="svg-wrapper">
+                            <a class="nav-link active nav_header " aria-current="page" href="index.html">
+                                <svg height="30" width="70" xmlns="http://www.w3.org/2000/svg">
+                                    <rect class="shape" height="30" width="70" />
+                                </svg>
+                                <p class="text_nav">Mundial</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="svg-wrapper">
+                            <a class="nav-link nav_header" href="detail_team_col.html">
+                                <svg height="30" width="80" xmlns="http://www.w3.org/2000/svg">
+                                    <rect class="shape" height="30" width="80" />
+                                </svg>
+                                <p class="text_nav">Colombia</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="svg-wrapper">
+                            <a class="nav-link nav_header" href="detail_team_arg.html">
+                                <svg height="30" width="85" xmlns="http://www.w3.org/2000/svg">
+                                    <rect class="shape" height="30" width="85" />
+                                </svg>
+                                <p class="text_nav">Argentina</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="svg-wrapper">
+                            <a class="nav-link nav_header" href="detail_team_ale.html">
+                                <svg height="30" width="85" xmlns="http://www.w3.org/2000/svg">
+                                    <rect class="shape" height="30" width="85" />
+                                </svg>
+                                <p class="text_nav">Alemania</p>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </li>
-        <li class="nav-item">
-            <div class="svg-wrapper">
-                <a class="nav-link nav_header" href="detail_team_col.html">
-                    <svg height="30" width="80" xmlns="http://www.w3.org/2000/svg">
-                        <rect class="shape" height="30" width="80" />
-                    </svg>
-                    <p class="text_nav">Colombia</p>
-                </a>
-            </div>
-        </li>
-        <li class="nav-item">
-            <div class="svg-wrapper">
-                <a class="nav-link nav_header" href="detail_team_arg.html">
-                    <svg height="30" width="85" xmlns="http://www.w3.org/2000/svg">
-                        <rect class="shape" height="30" width="85" />
-                    </svg>
-                    <p class="text_nav">Argentina</p>
-                </a>
-            </div>
-        </li>
-        <li class="nav-item">
-            <div class="svg-wrapper">
-                <a class="nav-link nav_header" href="detail_team_ale.html">
-                    <svg height="30" width="85" xmlns="http://www.w3.org/2000/svg">
-                        <rect class="shape" height="30" width="85" />
-                    </svg>
-                    <p class="text_nav">Alemania</p>
-                </a>
-            </div>
-        </li>
-    </ul>
+        </div>
+    </nav>
+
 </header>
 
 <div class="bg">
@@ -67,7 +80,7 @@
         <h1 class="text_1 text-center title"> Mundial Femenino 2023</h1>
     </div>
     <div class="container text-center grid_1">
-        <div class="row">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3">
             <div class="col apartado1">
                 <h2 class="text_1">Origen</h2>
                 <p class="text_1">
